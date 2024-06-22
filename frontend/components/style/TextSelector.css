@@ -1,0 +1,11 @@
+.selection-btn {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  margin-right: 2px;
+  border-radius: 5px;
+  font: normal 12px "Exo2";
+  color: var(--text-color1);
+  background: var(--profile-btn-bg);
+  cursor: pointer;
+}

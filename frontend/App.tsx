@@ -5,6 +5,7 @@ import { HomePage } from "./pages/HomePage";
 import { ProfilePage } from "./pages/ProfilePage";
 import { AboutPage } from "./pages/AboutPage";
 import { SettingsPage } from "./pages/SettingsPage";
+import { TextSelector } from "./components/TextSelector";
 import "./App.css";
 
 const App = () => {
@@ -63,6 +64,8 @@ const App = () => {
   };
 
   return (
+    <>
+    <TextSelector />
     <Router>
       <Routes>
         <Route
@@ -84,6 +87,7 @@ const App = () => {
         <Route path="/settings" element={<SettingsPage />} />
       </Routes>
     </Router>
+    </>
   );
 };
 
